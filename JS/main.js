@@ -40,6 +40,7 @@
 
 // document.getElementById("element_inner").innerHTML = lists_dom;
 // // создание списка и взаимодействие с переменными вместе с результатами вычислений массива.
+
 // let a = 20;
 // let b = 16;
 // let string;
@@ -47,15 +48,23 @@
 // string = a.toString() + b.toString();
 // console.log(string);
 
-function finalGrad(exam, projects) {
-  if (exam > 90 && projects > 10) {
-    return 100;
-  } else if (exam > 75 && projects > 5) {
-    return 90;
-  } else if (exam >= 50 && projects >= 2) {
-    return 50;
-  }
-  return 0;
+// function finalGrad(exam, projects) {
+//   if (exam > 90 && projects > 10) {
+//     return 100;
+//   } else if (exam > 75 && projects > 5) {
+//     return 90;
+//   } else if (exam >= 50 && projects >= 2) {
+//     return 50;
+//   }
+//   return 0;
+// }
+
+// console.log(finalGrad(50, 2));
+
+let arr_len = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+function length_arr() {
+  console.log(arr_len.length);
 }
 
-console.log(finalGrad(50, 2));
+length_arr();
