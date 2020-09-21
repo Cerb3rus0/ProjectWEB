@@ -1,17 +1,13 @@
-@charset "UTF-8";
 body {
   background-color: whitesmoke;
 }
-
 #element_inner {
   margin-top: 500px;
 }
-
 .header_content_main {
   height: 100px;
   width: 1920;
 }
-
 .header_content_left_logo {
   /* Style for "logo" */
   width: 60px;
@@ -20,7 +16,6 @@ body {
   padding-top: 19px;
   position: static;
 }
-
 .header_content_left_text {
   /* Style for "Технологии" */
   font-family: "Open Sans";
@@ -29,7 +24,6 @@ body {
   padding-left: 19px;
   position: absolute;
 }
-
 .header_content_center_text {
   /* Style for "Сертификат" */
   color: #666666;
@@ -38,34 +32,43 @@ body {
   position: static;
   margin-top: -50px;
 }
-
 .header_content_right_number {
   /* Style for "+7 (499) 4" */
   font-family: "Open Sans - Semibold";
   font-size: 22px;
   position: inherit;
 }
-
 .header_content_right_address {
   /* Style for "г. Москва," */
   font-family: "Open Sans";
   font-size: 14px;
   margin-top: -11px;
 }
-
 .header_content_right {
   text-align: right;
   margin-right: 490px;
   margin-top: -89px;
 }
-
 .content_and_form {
   /* Style for "bg-1" */
   width: 1920px;
   height: 550px;
   background-image: url(../image/bg-1.png);
 }
+.class {
+  // .class__content
 
-.class__content {
-  color: yellowgreen;
+  &__content {
+    color: yellowgreen;
+  }
+
+  // .class__1
+
+  &__1 {
+  }
+
+  // .class__2
+
+  &__2 {
+  }
 }
