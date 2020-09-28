@@ -1,2 +1,3 @@
 # ProjectWEB
-JavaScript programming
+
+JavaScript programming&learning
