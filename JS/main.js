@@ -1,6 +1,6 @@
 "use strict";
 
-console.log("Используется строгий режим.");
+console.log("Используется строгий режим.".toUpperCase());
 
 let arr_names;
 let random_math;
@@ -68,3 +68,13 @@ function length_arr() {
 }
 
 length_arr();
+
+
+
+function tea(name, message){
+  
+  var name = prompt("Your name?", 0);
+  var message = prompt('Your message', 0);
+
+  console.log(name+ ' ' + message);
+}
