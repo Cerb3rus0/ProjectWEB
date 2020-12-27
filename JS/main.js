@@ -8,6 +8,7 @@ let random_math;
 arr_names = ["denis", "lesha", "artem", "valera", "kirill", "anton", "maksim"];
 random_math = Math.floor(Math.random() * arr_names.length);
 
+console.log(arr_names.length)
 console.log(random_math, arr_names[random_math]);
 // вызов результата вычислений и соответствующий индекс с вложением результату.
 
@@ -73,8 +74,12 @@ length_arr();
 
 function tea(name, message){
   
-  var name = prompt("Your name?", 0);
-  var message = prompt('Your message', 0);
+  var name = prompt("Your name?", 'My name is');
+  var message = prompt('Your message', 'I have write message');
+  let yesoryes = confirm('Ты пидор?');
 
+  alert(name+ ' ' + message)
+  console.log(yesoryes+' реально пидор');
   console.log(name+ ' ' + message);
-}
+};
+
